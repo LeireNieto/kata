@@ -52,6 +52,10 @@ describe(
     } 
 )       
 
+console.log(encontrarMaximo([1, 3, 2]));      // 👉 3
+console.log(encontrarMaximo([-1, -3, -2]));   // 👉 -1
+console.log(encontrarMaximo([]));            // 👉 undefined
+console.log(encontrarMaximo([5]));           // 👉 5
 
 
 
